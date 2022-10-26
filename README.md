@@ -15,7 +15,7 @@ The [index.php](/index.php) file is our demo, you can change the text to test th
 The [LambdaCode.py](/LambdaCode.py) is the code used by the Lambda function to create a new AMI and update the launch configuration.
 To use it on a Lambda function you will need to set the timeout to 5 seconds and input the enviroment variables:
 
-|Name|Stends For|
+|Name|Stands For|
 |----|-----|
 |Auto_Scailing_Group_Name|Name of the Auto Scaling group that is going to be updated|
 |EC2_Role_ARN|Instance Profile ARN of the IAM Role for the EC2|
